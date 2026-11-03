@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Statok — Money Tracker</title>
+<meta name="description" content="Expenses, limits, payments and other people's money. Offline, no ads, no account.">
+<style>
+:root{--bg:#f7f8f6;--fg:#1b1f1d;--muted:#5a6560;--card:#fff;--line:#dfe4e1;--accent:#1f7a4d}
+@media(prefers-color-scheme:dark){:root{--bg:#121513;--fg:#e8ece9;--muted:#9aa6a0;--card:#1b201d;--line:#2a312d;--accent:#5cc592}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:860px;margin:0 auto;padding:0 16px}
+header.top{display:flex;justify-content:space-between;align-items:center;padding:14px 0;font-size:.9rem;color:var(--muted)}
+a{color:var(--accent)}
+.hero{display:flex;gap:20px;align-items:center;padding:24px 0}
+.hero img{width:96px;height:96px;border-radius:22px;flex:none}
+h1{font-size:1.7rem;line-height:1.2;margin:0 0 6px}
+h2{font-size:1.25rem;margin:0 0 12px}
+p{margin:0 0 12px}
+section{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;margin:0 0 16px}
+ul{margin:0;padding-left:1.2em}li{margin:0 0 8px}
+.shots{display:flex;gap:12px;overflow-x:auto;padding-bottom:4px}
+.shots img{height:360px;width:auto;max-width:none;border-radius:12px;border:1px solid var(--line)}
+footer{padding:16px 0 32px;color:var(--muted);font-size:.9rem}
+@media(max-width:480px){.hero{flex-direction:column;align-items:flex-start}h1{font-size:1.45rem}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top"><span>Oleksandr Sandul</span><a href="index.html" hreflang="uk">Українська</a></header>
+<div class="hero">
+<img src="img/icon.png" width="96" height="96" alt="Statok app icon">
+<div><h1>Statok — Money Tracker</h1><p>Expenses, limits, payments and other people's money. Offline, no ads, no account.</p></div>
+</div>
+<section>
+<h2>Features</h2>
+<ul>
+<li>Add an expense in seconds: amount, tag, done. There is a home-screen widget, a Quick Settings tile and an app shortcut.</li>
+<li>Monthly limits for tags: what is left and whether you are over. Your month can start on any day, for example the 25th, when your salary arrives.</li>
+<li>Other people&#39;s money, kept separate: money that belongs to a company, relatives or friends goes in a separate budget, and you see how much of the money on your card is not yours and who owes whom.</li>
+<li>Recurring payments with reminders; the "Paid" button is right in the notification.</li>
+<li>Installments on a credit card: schedule, what is left, and the last payment.</li>
+<li>Monthly statistics: income, spending and what is left, and where the money went by tag.</li>
+<li>Search your whole history, PIN or biometric lock, backup to a file, CSV export, dark theme.</li>
+</ul>
+</section>
+<section>
+<div class="shots">
+<img src="img/en-1_home.png" width="180" height="360" alt="Statok home screen">
+<img src="img/en-3_stats.png" width="180" height="360" alt="Monthly statistics">
+<img src="img/en-5_others_money.png" width="180" height="360" alt="Other people&#39;s money kept separate">
+<img src="img/en-6_payments.png" width="180" height="360" alt="Recurring payments">
+</div>
+</section>
+<section>
+<h2>Privacy</h2>
+<p>All data stays on your phone only. There is no account, no ads, and the app has no internet access and collects no data.</p>
+<p><a href="https://sanduldev.github.io/statok-privacy/en.html">Privacy policy</a></p>
+</section>
+<section>
+<h2>Coming soon to Google Play</h2>
+<p>The app is currently in testing. It will be available on Google Play soon.</p>
+</section>
+<section>
+<h2>About the developer and contact</h2>
+<p>Developer: Oleksandr Sandul, sole proprietor (FOP), Vinnytsia, Ukraine.</p>
+<p>Email: <a href="mailto:sandul.dev@gmail.com">sandul.dev@gmail.com</a></p>
+</section>
+<footer>&copy; 2026 Oleksandr Sandul.</footer>
+</div>
+</body>
+</html>

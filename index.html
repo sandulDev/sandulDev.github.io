@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Statok — облік грошей</title>
+<meta name="description" content="Витрати, ліміти, платежі й чужі гроші окремо. Офлайн, без реклами й акаунта.">
+<style>
+:root{--bg:#f7f8f6;--fg:#1b1f1d;--muted:#5a6560;--card:#fff;--line:#dfe4e1;--accent:#1f7a4d}
+@media(prefers-color-scheme:dark){:root{--bg:#121513;--fg:#e8ece9;--muted:#9aa6a0;--card:#1b201d;--line:#2a312d;--accent:#5cc592}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:860px;margin:0 auto;padding:0 16px}
+header.top{display:flex;justify-content:space-between;align-items:center;padding:14px 0;font-size:.9rem;color:var(--muted)}
+a{color:var(--accent)}
+.hero{display:flex;gap:20px;align-items:center;padding:24px 0}
+.hero img{width:96px;height:96px;border-radius:22px;flex:none}
+h1{font-size:1.7rem;line-height:1.2;margin:0 0 6px}
+h2{font-size:1.25rem;margin:0 0 12px}
+p{margin:0 0 12px}
+section{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;margin:0 0 16px}
+ul{margin:0;padding-left:1.2em}li{margin:0 0 8px}
+.shots{display:flex;gap:12px;overflow-x:auto;padding-bottom:4px}
+.shots img{height:360px;width:auto;max-width:none;border-radius:12px;border:1px solid var(--line)}
+footer{padding:16px 0 32px;color:var(--muted);font-size:.9rem}
+@media(max-width:480px){.hero{flex-direction:column;align-items:flex-start}h1{font-size:1.45rem}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top"><span>Oleksandr Sandul</span><a href="en.html" hreflang="uk">English</a></header>
+<div class="hero">
+<img src="img/icon.png" width="96" height="96" alt="Значок Statok">
+<div><h1>Statok — облік грошей</h1><p>Витрати, ліміти, платежі й чужі гроші окремо. Офлайн, без реклами й акаунта.</p></div>
+</div>
+<section>
+<h2>Що вміє</h2>
+<ul>
+<li>Витрата за кілька секунд: сума, тег, готово. Є віджет на головному екрані, плитка у швидких налаштуваннях і ярлик на іконці.</li>
+<li>Місячні ліміти для тегів: скільки лишилось і чи є перевитрата. Місяць може починатися з будь-якого дня, наприклад з 25-го, коли приходить зарплата.</li>
+<li>Чужі гроші окремо: гроші компанії, рідних чи друзів ведуться в окремому бюджеті, видно, скільки грошей на картці не ваших і хто кому винен.</li>
+<li>Регулярні платежі з нагадуваннями; кнопка «Сплачено» є прямо у сповіщенні.</li>
+<li>Розстрочки на кредитній картці: графік, залишок і останній платіж.</li>
+<li>Статистика місяця: дохід, витрати й залишок, розподіл витрат за тегами.</li>
+<li>Пошук по всій історії, замок PIN-кодом чи біометрією, резервна копія у файл, експорт у CSV, темна тема.</li>
+</ul>
+</section>
+<section>
+<div class="shots">
+<img src="img/uk-1_home.png" width="180" height="360" alt="Головний екран Statok">
+<img src="img/uk-3_stats.png" width="180" height="360" alt="Статистика місяця">
+<img src="img/uk-5_others_money.png" width="180" height="360" alt="Чужі гроші окремо">
+<img src="img/uk-6_payments.png" width="180" height="360" alt="Регулярні платежі">
+</div>
+</section>
+<section>
+<h2>Приватність</h2>
+<p>Усі дані зберігаються лише на вашому телефоні. Акаунта немає, реклами немає, застосунок не має доступу до інтернету й не збирає жодних даних.</p>
+<p><a href="https://sanduldev.github.io/statok-privacy/">Політика приватності</a></p>
+</section>
+<section>
+<h2>Скоро в Google Play</h2>
+<p>Застосунок зараз проходить тестування. Незабаром він з’явиться в Google Play.</p>
+</section>
+<section>
+<h2>Про розробника і контакти</h2>
+<p>Розробник: Олександр Сандул, фізична особа-підприємець (ФОП), Вінниця, Україна.</p>
+<p>Email: <a href="mailto:sandul.dev@gmail.com">sandul.dev@gmail.com</a></p>
+</section>
+<footer>&copy; 2026 Oleksandr Sandul.</footer>
+</div>
+</body>
+</html>
